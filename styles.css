@@ -1,21 +1,21 @@
-/* Taustaväri ja tekstin väri koko sivulle */
+/* Koko sivun keskittäminen */
 body {
-    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
-    color: #333;
+    background-color: #f3f3f3;
   }
   
   /* Otsikon tyyli */
   header {
+    text-align: center;
     background-color: #00aaff;
     color: white;
     padding: 20px;
-    text-align: center;
-  }
-  
-  /* Pääsisältöalueen marginaali */
-  main {
-    margin: 20px;
   }
   
   /* Lihavoitu teksti */
@@ -23,15 +23,11 @@ body {
     color: #e74c3c;
   }
   
-  /* Listan väri ja keskitys */
-  ul {
-    color: #3498db;
+  /* Toinen otsikko */
+  h2 {
     text-align: center;
-    padding-left: 0;
+    margin-top: 10px;
   }
   
-  /* Listan kohdan tyyli */
-  li {
-    list-style: none;
-    margin-bottom: 10px;
-  }
+  /* Linkittää CSS-tiedoston */
+  <link rel="stylesheet" href="styles.css">
