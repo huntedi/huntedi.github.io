@@ -1,4 +1,3 @@
-
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -26,6 +25,10 @@ body {
   margin: 0 15px;
 }
 
+/* Style for the navigation bar links on hover */
+.navbar a:hover {
+  color: #ff6600;
+}
 
 .section {
   text-align: center;
@@ -35,5 +38,15 @@ body {
 
 .section header h2 {
   margin-bottom: 2px;
+}
+
+/* Style for the LinkedIn link */
+.section a {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
 }
 
