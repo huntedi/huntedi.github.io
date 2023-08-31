@@ -17,12 +17,15 @@
 
       if (bbaHeading && bbaHeading.textContent.trim() === bbaText) {
         backButton.classList.remove('show');
-        navbar.style.display = "none"; // Piilota navigointipalkki
       } else {
         backButton.classList.add('show');
-        navbar.style.display = "flex"; // Näytä navigointipalkki
       }
     });
+
+    function toggleNavbarVisibility() {
+      var navbar = document.querySelector('.navbar');
+      navbar.style.display = navbar.style.display === 'none' ? 'flex' : 'none';
+    }
   </script>
 </head>
 <body>
@@ -57,7 +60,8 @@
   </div>
 
   <div class="back-to-top">
-    <a href="#home">Back to top</a>
+    <a href="#home" onclick="toggleNavbarVisibility();">Back to Top</a>
   </div>
 </body>
 </html>
+
