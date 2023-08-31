@@ -22,42 +22,42 @@ body {
   z-index: 1000;
 }
 
-/* Style for navigation links */
+
 .navbar a {
   text-decoration: none;
   color: white;
   margin: 0 15px;
 }
 
-/* Style for navigation links on hover */
+
 .navbar a:hover {
   color: #1d4223;
 }
 
-/* Style for sections */
+
 .section {
   text-align: center;
   padding: 100px 0;
   min-height: calc(100vh - 50px);
 }
 
-/* Style for header h2 in sections */
+
 .section header h2 {
   margin-bottom: 2px;
 }
 
-/* Style for the LinkedIn link */
+
 .section a {
   color: #0077B5;
   text-decoration: none;
 }
 
-/* Style for the LinkedIn link on hover */
+
 .section a:hover {
   text-decoration: underline;
 }
 
-/* Style for portfolio images */
+
 .section#portfolio img {
   max-width: 100%;
   height: auto;
