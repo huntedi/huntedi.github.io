@@ -13,11 +13,14 @@
       var bbaText = "I'm a first-year Business Administration (BBA) student in the field of Information and Communication Technology (ICT)";
       var bbaHeading = document.querySelector('h2');
       var backButton = document.querySelector('.back-to-top');
+      var navbar = document.querySelector('.navbar');
 
       if (bbaHeading && bbaHeading.textContent.trim() === bbaText) {
         backButton.classList.remove('show');
+        navbar.style.display = "none"; // Piilota navigointipalkki
       } else {
         backButton.classList.add('show');
+        navbar.style.display = "flex"; // Näytä navigointipalkki
       }
     });
   </script>
@@ -28,7 +31,6 @@
     <a href="javascript:void(0);" onclick="scrollToSection('about')">About Me</a>
     <a href="javascript:void(0);" onclick="scrollToSection('portfolio')">Portfolio</a>
     <a href="javascript:void(0);" onclick="scrollToSection('contact')">Contact</a>
-    
   </nav>
   
   <div class="section" id="home">
