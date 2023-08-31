@@ -1,16 +1,16 @@
-/* Reset some default margin and padding */
+
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
-/* Set the base font and background color */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
 }
 
-/* Style for the navigation bar */
+
 .navbar {
   display: flex;
   justify-content: center;
