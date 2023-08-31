@@ -17,15 +17,12 @@
 
       if (bbaHeading && bbaHeading.textContent.trim() === bbaText) {
         backButton.classList.remove('show');
+        navbar.style.display = 'none'; // Hide the navbar when at BBA section
       } else {
         backButton.classList.add('show');
+        navbar.style.display = 'flex'; // Show the navbar otherwise
       }
     });
-
-    function toggleNavbarVisibility() {
-      var navbar = document.querySelector('.navbar');
-      navbar.style.display = navbar.style.display === 'none' ? 'flex' : 'none';
-    }
   </script>
 </head>
 <body>
@@ -60,8 +57,9 @@
   </div>
 
   <div class="back-to-top">
-    <a href="#home" onclick="toggleNavbarVisibility();">Back to Top</a>
+    <a href="#home" onclick="scrollToSection('home');">Back to Top</a>
   </div>
 </body>
 </html>
+
 
