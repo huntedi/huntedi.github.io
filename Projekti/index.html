@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Jade Malin</title>
-  <link rel="stylesheet" href="styles.css">
-  <script>
-    function scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  </script>
+    <meta charset="utf-8">
+    <title>Jade Malin</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add any inline CSS styles here if needed */
+    </style>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
 </head>
+
 <body>
 
-  <nav class="navbar">
-    <a href="javascript:void(0);" onclick="scrollToSection('home')"> <strong> Home</strong></a>
-    <a href="javascript:void(0);" onclick="scrollToSection('about')"> <strong> About me</strong></a>
-    <a href="javascript:void(0);" onclick="scrollToSection('portfolio')"> <strong> Portfolio</strong></a>
-    <a href="javascript:void(0);" onclick="scrollToSection('contact')"> <strong> Contact</strong></a>
-  </nav>
-  <div class="section" id="home">
-    <header>
-      <h1>Hey there! I'm <strong>Jade Malin</strong>.</h1>
-      <h2>I'm a first-year Business Administration (BBA) student</h2>
-      <h3>specializing in the field of Information and Communication Technology (ICT).</h3>
-    </header>
-  </div>
-  
-  <div class="section" id="about">
-    <h2>About Me</h2>
-    <p>This is some information about me.</p>
-    <a href="03.05CityPageEx.html">Siirry Järvenpäästä tekemälleni sivulle, Sauli!</a>
-  </div>
+    <nav class="navbar">
+        <a href="javascript:void(0);" onclick="scrollToSection('home')"><strong> Home</strong></a>
+        <a href="javascript:void(0);" onclick="scrollToSection('about')"><strong> About me</strong></a>
+        <a href="javascript:void(0);" onclick="scrollToSection('portfolio')"><strong> Portfolio</strong></a>
+        <a href="javascript:void(0);" onclick="scrollToSection('contact')"><strong> Contact</strong></a>
+        <a href="javascript:void(0);" onclick="scrollToSection('cv')"><strong> CV</strong></a> <!-- Added CV link -->
+    </nav>
 
-  <div class="section" id="portfolio">
-    <h2>Portfolio</h2>
-    <p>Here you can see some of my works.</p>
-    <img src="labvalmis.jpg" alt="Portfolio Item 1">
-  </div>
+    <div class="section" id="home">
+        <header>
+            <h1>Hey there! I'm <strong>Jade Malin</strong>.</h1>
+            <h2>I'm a first-year Business Administration (BBA) student</h2>
+            <h3>specializing in the field of Information and Communication Technology (ICT).</h3>
+        </header>
+    </div>
 
-  <div class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to get in touch.</p>
-    <a href="https://www.linkedin.com/in/jademalin">Connect with me on LinkedIn!</a>
-  </div>
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>This is some information about me.</p>
+        <a href="03.05CityPageEx.html">Siirry Järvenpäästä tekemälleni sivulle, Sauli!</a>
+    </div>
+
+    <div class="section" id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here you can see some of my works.</p>
+        <img src="labvalmis.jpg" alt="Portfolio Item 1">
+    </div>
+
+    <div class="section" id="cv">
+        <h2>CV</h2>
+        <p>Here is my CV information:</p>
+        <ul>
+            <li>Education: [My education]</li>
+            <li>Work Experience: [My work experience]</li>
+            <li>Skills: [My Skills]</li>
+        </ul>
+        <a href="link-to-your-cv.pdf" target="_blank">Download CV (PDF)</a>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to get in touch.</p>
+        <a href="https://www.linkedin.com/in/jademalin">Connect with me on LinkedIn!</a>
+    </div>
 </body>
+
 </html>
