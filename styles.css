@@ -1,4 +1,4 @@
-body, h1, h2, h3, p {
+body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
@@ -48,18 +48,17 @@ body {
   text-decoration: underline;
 }
 
-.section#portfolio img {
+.section img {
   max-width: 100%;
   height: auto;
   margin: 10px;
   border: 2px solid #ccc;
 }
 
-/* Style for the CV section */
 .section#cv {
   text-align: left;
   padding: 50px 0;
-  background-color: #fff;
+  background-color: #f3f3f3;
   border-top: 2px solid #ccc;
 }
 
@@ -73,4 +72,3 @@ body {
   display: block;
   margin-top: 20px;
 }
-
