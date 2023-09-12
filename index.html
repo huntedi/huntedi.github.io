@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
     <style>
-     html {
-          scroll-behavior: smooth;
+        html {
+            scroll-behavior: smooth;
         }
         body {
             font-family: Arial, sans-serif;
@@ -19,10 +18,32 @@
 
         .jade-malin {
             font-family: 'Prata', serif;
-        }   
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #1b3f20;
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        .navbar a:hover {
+            color: #000000;
+        }
+
+        
 
     </style>
-
 </head>
 
 <body>
