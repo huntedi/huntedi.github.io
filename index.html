@@ -16,17 +16,51 @@
             }
         }
     </script>
+    <style>
+
+        .hakukentta {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .hakukentta input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .hakukentta button[type="submit"] {
+            background-color: #0077B5;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        .hakukentta button[type="submit"]:hover {
+            background-color: #005a8e;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="hakukentta">
+        <form action="/haku" method="GET">
+            <input type="text" name="q" placeholder="Etsi sivustolta">
+            <button type="submit">Hae</button>
+        </form>
+    </div>
 
     <nav class="navbar">
         <a href="javascript:void(0);" onclick="scrollToSection('home')"><strong> Home</strong></a>
         <a href="javascript:void(0);" onclick="scrollToSection('about')"><strong> About me</strong></a>
         <a href="javascript:void(0);" onclick="scrollToSection('portfolio')"><strong> Portfolio</strong></a>
-        <a href="javascript:void(0);" onclick="scrollToSection('cv')"><strong> CV</strong></a>
         <a href="javascript:void(0);" onclick="scrollToSection('contact')"><strong> Contact</strong></a>
-        
     </nav>
 
     <div class="section" id="home">
@@ -47,17 +81,6 @@
         <h2>Portfolio</h2>
         <p>Here you can see some of my works.</p>
         <img src="labvalmis.jpg" alt="Portfolio Item 1">
-    </div>
-
-    <div class="section" id="cv">
-        <h2>CV</h2>
-        <p>Here is my CV information:</p>
-        <ul>
-            <li>Education: [My education]</li>
-            <li>Work Experience: [My work experience]</li>
-            <li>Skills: [My Skills]</li>
-        </ul>
-        <a href="link-to-your-cv.pdf" target="_blank">Download CV (PDF)</a>
     </div>
 
     <div class="section" id="contact">

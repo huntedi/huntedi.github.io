@@ -8,6 +8,31 @@ body {
   background-color: #f3f3f3;
 }
 
+.hakulomake {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  background-color: #0077B5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button[type="submit"]:hover {
+  background-color: #005a8e;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
