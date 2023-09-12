@@ -8,31 +8,6 @@ body {
   background-color: #f3f3f3;
 }
 
-.hakulomake {
-  display: flex;
-  align-items: center;
-}
-
-input[type="text"] {
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-button[type="submit"] {
-  background-color: #0077B5;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-left: 5px;
-}
-
-button[type="submit"]:hover {
-  background-color: #005a8e;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -78,22 +53,4 @@ button[type="submit"]:hover {
   height: auto;
   margin: 10px;
   border: 2px solid #ccc;
-}
-
-.section#cv {
-  text-align: center;
-  padding: 50px 0;
-  background-color: #f3f3f3;
-  
-}
-
-.section#cv h2 {
-  margin-bottom: 20px;
-}
-
-.section#cv a {
-  color: #0077B5;
-  text-decoration: none;
-  display: block;
-  margin-top: 20px;
 }
