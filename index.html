@@ -12,12 +12,27 @@
         html {
             scroll-behavior: smooth;
         }
+
         body {
             font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
         }
 
         .jade-malin {
             font-family: 'Prata', serif;
+        }
+
+        .section {
+            text-align: center;
+            padding: 100px 0;
+            min-height: calc(100vh - 50px);
+            background-color: #ffffff;
+        }
+
+        .section:last-child {
+            border-bottom: none;
         }
 
         .navbar {
@@ -41,8 +56,32 @@
             color: #000000;
         }
 
-        
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
 
+        .portfolio-image1 {
+            width: 600px;
+            height: 600px;
+            margin: 5px;
+            border: 2px solid #ccc;
+        }
+
+        .portfolio-image2 {
+            width: 400px;
+            height: 600px;
+            margin: 5px;
+            border: 2px solid #ccc;
+        }
+
+        .footer {
+            background-color: #1b3f20;
+            padding: 40px 0;
+            text-align: center;
+            color: white;
+        }
     </style>
 </head>
 
@@ -65,7 +104,7 @@
 
     <div class="section" id="about">
         <h2>About Me</h2>
-        <p>This is some information about me.</p>
+        <p>Some information about me.</p><br>
         <div class="table-container">
             <table class="custom-table">
                 <tr>
@@ -93,9 +132,10 @@
                     <td>Limited</td>
                 </tr>
             </table>
-        </div>
+        </div> <br>
         <a href="03.05CityPageEx.html">Siirry Järvenpäästä tekemälleni sivulle, Sauli!</a> <br>
-        <button type="button">Ihmenappi</button>
+        <button type="button">Ihmenappi</button><br>
+        
     </div>
 
     <div class="section" id="portfolio">
@@ -104,7 +144,8 @@
         <div class="image-container"></div>
         <img src="labvalmis.jpg" alt="Portfolio Item 1" class="portfolio-image1">
         <img src="lovesick.png" alt="Portfolio Item 2" class="portfolio-image2"><br>
-        <iframe width="60%" height="600" src="https://www.youtube.com/embed/xAGn1HiN6JA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="60%" height="600" src="https://www.youtube.com/embed/xAGn1HiN6JA" frameborder="0"
+            allowfullscreen></iframe>
     </div>
 
     <div class="section" id="contact">
