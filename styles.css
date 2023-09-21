@@ -71,13 +71,13 @@ table-container {
 }
 
 th, td {
-  border: 1px solid #1b3f20;
+  border: 1px solid #000000;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #1b3f20;
 }
 
 
