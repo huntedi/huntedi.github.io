@@ -1,3 +1,5 @@
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,7 +17,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
 }
-
 
 .navbar {
   display: flex;
@@ -38,25 +39,21 @@ body {
   color: #000000;
 }
 
-
 .section {
   text-align: center;
   padding: 100px 0;
   background-color: #ffffff;
 }
 
-
 .section:last-child {
   border-bottom: none;
 }
-
 
 .image-container {
   display: flex;
   justify-content: center;
   gap: 100px;
 }
-
 
 table {
   border-collapse: collapse;
@@ -80,7 +77,6 @@ th {
   background-color: #f2f2f2;
 }
 
-
 .portfolio-image1 {
   width: 600px;
   height: auto;
@@ -95,24 +91,19 @@ th {
   border: 2px solid #ccc;
 }
 
-
-
 #home {
   background-color: #ffffff;
 }
-
 
 #portfolio {
   background-color: #e0e0e0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-
 #contact {
   background-color: #e0e0e0;
   text-align: center;
 }
-
 
 .footer {
   background-color: #1b3f20;
@@ -122,38 +113,53 @@ th {
   margin-top: -10px;
 }
 
-
 .colored-word {
   color: rgb(230, 47, 23);
 }
 
-
 @media screen and (max-width: 768px) {
   .navbar {
-    padding: 10px 0;
+      padding: 10px 0;
   }
-
 
   .section {
-    padding: 80px 0;
+      padding: 80px 0;
   }
 
-  
   .image-container {
-    flex-direction: column;
-    gap: 20px;
+      flex-direction: column;
+      gap: 20px;
   }
 
- 
   .portfolio-image1 {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+      width: 100%;
+      height: auto;
+      max-width: 400px;
   }
 
   .portfolio-image2 {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+      width: 100%;
+      height: auto;
+      max-width: 300px;
   }
+}
+
+
+.home-background {
+  position: relative;
+  height: 100vh;
+  background: url("tausta.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-background a {
+  text-decoration: none;
+  color: white;
+  font
 }
