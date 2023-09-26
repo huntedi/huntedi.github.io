@@ -113,10 +113,22 @@ th {
 }
 
 .colored-word {
-  color: rgb(230, 47, 23);
+  color: #cc2626;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 421px) and
+(max-width: 1023px) {
+
+  
+ 
+  
+
+
+
+
+
+
+
   .navbar {
       padding: 10px 0;
   }
