@@ -7,8 +7,9 @@ body, h1, h2, h3, p, ul, li {
   padding: 0;
 }
 
-.jade-malin {
-  font-family: 'Prata', serif;
+.jade-malin-font {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px; 
 }
 
 body {
