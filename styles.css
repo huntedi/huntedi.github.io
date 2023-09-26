@@ -1,22 +1,22 @@
-html {
-  scroll-behavior: smooth;
-}
-
+/* Resetoidaan sivun elementtien oletustyylit. */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
+/* Määritellään erityinen fontti otsikoille, joissa on luokka "jade-malin-font". */
 .jade-malin-font {
   font-family: 'Raleway', sans-serif;
   font-size: 24px; 
 }
 
+/* Määritellään yleinen tyyli koko sivun taustalle ja fontille. */
 body {
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
 }
 
+/* Määritellään yläpalkkiin liittyvät tyylit. */
 .navbar {
   display: flex;
   justify-content: center;
@@ -38,15 +38,13 @@ body {
   color: #000000;
 }
 
+
 .section {
   text-align: center;
   padding: 100px 0;
-  background-color: #843e3e;
+  background-color: #ffffff;
 }
 
-.section:last-child {
-  border-bottom: none;
-}
 
 .image-container {
   display: flex;
@@ -54,10 +52,12 @@ body {
   gap: 100px;
 }
 
+
 table {
   border-collapse: collapse;
   margin: 0 auto;
 }
+
 
 table-container {
   display: flex;
@@ -66,15 +66,18 @@ table-container {
   min-height: calc(100vh - 50px);
 }
 
+
 th, td {
   border: 1px solid #000000;
   padding: 8px;
   text-align: left;
 }
 
+
 th {
-  background-color: #ffffff;
+  background-color: #1b3f20;
 }
+
 
 .portfolio-image1 {
   width: 600px;
@@ -90,23 +93,25 @@ th {
   border: 2px solid #ccc;
 }
 
-#index {
-  background-color: #1b3f20
+
+#home {
+  background-color: #e0e0e0;
 }
 
-"#about {
-  background-color: #1b3f20
-} 
+#about {
+  background-color: #e0e0e0;
+}
 
 #portfolio {
-  background-color: #1b3f20
+  background-color: #e0e0e0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 #contact {
-  background-color: #1b3f20
+  background-color: #e0e0e0;
   text-align: center;
 }
+
 
 .footer {
   background-color: #1b3f20;
@@ -116,48 +121,35 @@ th {
   margin-top: -10px;
 }
 
+
 .colored-word {
   color: #cc2626;
 }
 
-@media only screen and (min-width: 421px) and
-(max-width: 1023px) {
 
-  
- 
-  
-
-
-
-
-
-
-
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
   .navbar {
-      padding: 10px 0;
+    padding: 10px 0;
   }
 
   .section {
-      padding: 80px 0;
+    padding: 80px 0;
   }
 
   .image-container {
-      flex-direction: column;
-      gap: 20px;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .portfolio-image1 {
     width: 100%;
     height: auto;
     max-width: 400px;
-    border: 2px solid #ccc; 
   }
-  
+
   .portfolio-image2 {
     width: 100%;
     height: auto;
     max-width: 300px;
-    border: 2px solid #ccc;
   }
 }
-
