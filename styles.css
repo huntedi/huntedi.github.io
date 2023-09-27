@@ -1,6 +1,4 @@
 
-body, h1, h2, h3, p, ul, li {
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -20,7 +18,7 @@ body {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 20px;
 }  
 
 .navbar a:hover {
@@ -64,18 +62,10 @@ th, td {
 
 th {
   background-color: #1b3f20;
-}
-
-ul {
-  list-style-type: disc; 
-  text-align: center; 
-  padding-left: 20px; 
+  color: #ffffff;
 }
 
 
-ul li {
-  margin-bottom: 10px; 
-}
 
 .video-container {
   text-align: center; 
@@ -90,13 +80,60 @@ ul li {
   font-size: 24px;
 }
 
-#about {
-  background-color: #ffffff;
-  padding: 60px 0;
-  color: #333333;
-  font-size: 20px;
-  text-align: center;
+.split-container {
+  display: flex;
+  align-items: flex-start;
 }
+
+.left-side {
+  flex: 1;
+}
+
+.left-side img {
+  width: 100%;
+  height: auto;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right-side ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-align: left; 
+}
+
+.right-side ul li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.right-side table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.right-side table th {
+  padding: 8px;
+  text-align: center;
+  background-color: #303030; 
+  color: #ffffff; 
+}
+
+.right-side table td {
+  padding: 8px;
+  text-align: center;
+  background-color: #ffffff; 
+  color: #000000; 
+}
+
 
 #portfolio {
   background-color: #2f2e30;
@@ -113,7 +150,7 @@ ul li {
 }
 
 .colored-word {
-  color: #cc2626;
+  color: #303030;
 }
 
 
