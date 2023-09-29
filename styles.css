@@ -15,6 +15,11 @@ body {
 font-family: 'Prata', serif;
 }
 
+body.contact {
+  background-image: url('tausta.jpg');
+  background-size: cover;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
