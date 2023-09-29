@@ -15,7 +15,7 @@ body {
 font-family: 'Prata', serif;
 }
 
-body.contact {
+#contact {
   background-image: url('tausta.jpg');
   background-size: cover;
 }
