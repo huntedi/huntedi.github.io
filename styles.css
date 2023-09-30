@@ -1,3 +1,36 @@
+.split-container2 {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; 
+}
+
+/* Left side styles */
+.left-side2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side2 img {
+  max-height: 100%;
+  width: 100%;
+}
+
+/* Right side styles */
+.right-side2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side2 img {
+  width: 100%;
+  height: auto;
+}
+
+/* ... (existing CSS rules) */
 /* Globaali */
 html, body {
   height: 100%;
@@ -206,20 +239,12 @@ body {
   font-size: 20px;
 }
 
+.video-container {
+  justify-content: center;
+  margin: 0 auto;
+}
 /* Aiempi versio, joka asettaa kuvat rinnakkain */
-.portfolio-image1 {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  border: 4px solid #8b2424;
-}
 
-.portfolio-image2 {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  border: 4px solid #8b2424;
-}
 
 
 
