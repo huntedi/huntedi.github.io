@@ -1,10 +1,12 @@
 .split-container2 {
   display: flex;
-  justify-content: center; /* Center the items horizontally */
+  justify-content: center; 
   align-items: center; 
+  margin-top: 0,5em;
+  margin-bottom: 0.5em;
 }
 
-/* Left side styles */
+
 .left-side2 {
   flex: 1;
   display: flex;
@@ -17,7 +19,7 @@
   width: 100%;
 }
 
-/* Right side styles */
+
 .right-side2 {
   flex: 1;
   display: flex;
@@ -30,12 +32,8 @@
   height: auto;
 }
 
-/* ... (existing CSS rules) */
-/* Globaali */
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -58,7 +56,6 @@ body {
 /* Yleinen */
 .section {
   text-align: center;
-  padding: 80px 0;
 }
 
 /* Navibaari */
@@ -116,6 +113,12 @@ body {
   color: #ffffff;
   font-size: 1.5rem;
 }
+
+.colored-word {
+  color: #8b2424;
+}
+
+
 
 .split-container {
   display: flex;
@@ -236,13 +239,12 @@ body {
 #portfolio {
   background-color: #2f2e30;
   color: #ffffff;
-  font-size: 20px;
+  font-size:
 }
 
 .video-container {
   align-items: center;
-  height: 100vh; /* Set a height to ensure vertical centering */
-  position: relative;
+  justify-content: center; 
 }
 
 @media screen and (max-width: 768px) {
@@ -267,7 +269,6 @@ body {
 #mau {
 background-color: #2f2e30;
 color: #ffffff;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #citypage {
@@ -288,7 +289,6 @@ text-align: center;
 
 #contact {
   color: #ffffff;
-  font-size: 22px;
   text-align: center;
   display: flex;
   flex-direction: column;
