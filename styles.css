@@ -155,13 +155,11 @@ th {
   color: #8b2424;
 }
 
-
-
-
 /* Portfolion tyyli */
 #portfolio {
   background-color: #2f2e30;
   color: #ffffff;
+  padding-top: 2em;
 }
 
 .video-container {
@@ -176,6 +174,8 @@ th {
 #mau {
   background-color: #2f2e30;
   color: #ffffff;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Yhteystietosivun tyyli */
