@@ -68,6 +68,27 @@ p {
   font-size: 1.5rem;
 }
 
+.left-side {
+  flex: 1;
+  max-width: 50%;
+}
+
+.right-side {
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.left-side img {
+  width: 100%;
+  height: auto;
+}
+
 /* Taulukoiden tyyli */
 table {
   width: 100%;
@@ -91,10 +112,11 @@ th {
   color: #8b2424;
 }
 
-/* Kuvien ja tekstin välinen tila */
+/* Kuvien ja tekstin välinen tila portfolio */
 .split-container2 {
   display: flex;
   flex-wrap: wrap;
+  padding: 1em;
 }
 
 .left-side {
@@ -148,9 +170,7 @@ th {
   justify-content: center;
 }
 
-.split-container {
-padding: 1em;
-}
+
 
 /* Mau-sivun tyyli */
 #mau {
