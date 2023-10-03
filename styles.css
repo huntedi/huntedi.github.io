@@ -61,7 +61,6 @@ p {
   background-color: #1b3f20;
 }
 
-/* Kotisivun tyyli */
 #home {
   background-color: #1b3f20;
   padding: 3rem 0;
@@ -95,26 +94,47 @@ th {
 /* Kuvien ja tekstin välinen tila */
 .split-container2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 
-.left-side2,
-.right-side2 {
+.left-side {
+  flex: 1;
+  max-width: 50%;
+}
+
+.right-side {
+  max-width: 50%;
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.left-side2 img,
-.right-side2 img {
-  max-width: 100%;
+.left-side img {
+  width: 100%;
   height: auto;
 }
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #2f2e30;
+  color: #ffffff;
+}
+
+.colored-word {
+  color: #8b2424;
+}
+
+
+
 
 /* Portfolion tyyli */
 #portfolio {
@@ -126,6 +146,10 @@ th {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.split-container {
+padding: 1em;
 }
 
 /* Mau-sivun tyyli */
