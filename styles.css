@@ -1,6 +1,6 @@
 /* Yleiset asetukset */
 body {
-  margin: 0;
+  margin: 1em;
   padding: 0;
   font-family: 'Prata', serif;
   font-size: 1rem;
@@ -189,6 +189,12 @@ form {
   align-items: center;
   color: #ffffff;
 }
+
+#citypage {
+text-align:center;
+}
+
+
 
 .button-container,
 .button-85 {
