@@ -1,40 +1,13 @@
-.split-container2 {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin-top: 0,5em;
-  margin-bottom: 0.5em;
-}
-
-.left-side2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left-side2 img {
-  max-height: 100%;
-  width: 100%;
-}
-
-
-.right-side2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.right-side2 img {
-  width: 100%;
-  height: auto;
-}
-
-html, body {
+/* Yleiset asetukset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Prata', serif;
+  font-size: 1rem;
   height: 100%;
 }
 
+/* Otsikot */
 h1 {
   font-size: 2.5rem;
 }
@@ -43,21 +16,12 @@ h2 {
   font-size: 1.875rem;
 }
 
+/* Kappaleet */
 p {
   font-size: 1.25rem;
 }
 
-body {
-  font-family: 'Prata', serif;
-  font-size: 1rem;
-}
-
-/* Yleinen */
-.section {
-  text-align: center;
-}
-
-/* Navibaari */
+/* Navbar */
 .navbar {
   position: fixed;
   width: 100%;
@@ -66,16 +30,13 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
-  background-color: #2f2e30;
   z-index: 1000;
-  text-decoration: none;
-  font-size: 25em;
 }
 
 .navbar a {
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #ffffff;  
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -89,87 +50,91 @@ body {
   text-decoration: none;
 }
 
-.navbar.index-navbar {
-  background-color: #2f2e30;
-}
-
-.navbar.portfolio-navbar {
-  background-color: #1b3f20
-}
-
+/* Eri navbaarien värit */
+.navbar.index-navbar,
 .navbar.contact-navbar {
   background-color: #2f2e30;
 }
 
+.navbar.portfolio-navbar,
 .navbar.mau-navbar {
-  background-color: #1b3f20
+  background-color: #1b3f20;
 }
 
-/* Home */
-  #home {
-  background-color: #1b3f20; 
+/* Kotisivun tyyli */
+#home {
+  background-color: #1b3f20;
   padding: 3rem 0;
   color: #ffffff;
   font-size: 1.5rem;
+}
+
+/* Taulukoiden tyyli */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #2f2e30;
+  color: #ffffff;
 }
 
 .colored-word {
   color: #8b2424;
 }
 
-
-.split-container {
+/* Kuvien ja tekstin välinen tila */
+.split-container2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-.left-side, .right-side {
+.left-side2,
+.right-side2 {
   flex: 1;
-  max-width: 50%;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.left-side img {
-  width: 100%;
+.left-side2 img,
+.right-side2 img {
+  max-width: 100%;
   height: auto;
 }
 
-.right-side {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-/* Portfolio */
+/* Portfolion tyyli */
 #portfolio {
   background-color: #2f2e30;
   color: #ffffff;
-  font-size:
 }
 
 .video-container {
+  display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
-/* Mau */
+/* Mau-sivun tyyli */
 #mau {
-background-color: #2f2e30;
-color: #ffffff;
+  background-color: #2f2e30;
+  color: #ffffff;
 }
 
-#citypage {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-min-height: 100vh; margin: 0;
-text-align: center; 
-}
-
-/* Contact */
+/* Yhteystietosivun tyyli */
 #contact-body {
   background-image: url('tausta.jpg');
   background-size: cover;
@@ -185,6 +150,7 @@ text-align: center;
   height: 100vh;
 }
 
+/* Yhteystietolomake */
 form {
   margin-top: 5px;
   display: flex;
@@ -193,13 +159,7 @@ form {
   color: #ffffff;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-form,
+.button-container,
 .button-85 {
   margin-top: 20px;
 }
@@ -276,6 +236,3 @@ form,
   top: 0;
   border-radius: 10px;
 }
-
-
- 
