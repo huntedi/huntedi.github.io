@@ -119,27 +119,6 @@ th {
   padding: 1em;
 }
 
-.left-side {
-  flex: 1;
-  max-width: 50%;
-}
-
-.right-side {
-  max-width: 50%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-
-.left-side img {
-  width: 100%;
-  height: auto;
-}
-
 th, td {
   padding: 15px;
   text-align: left;
@@ -154,6 +133,10 @@ th {
 .colored-word {
   color: #8b2424;
 }
+
+
+
+
 
 /* Portfolion tyyli */
 #portfolio {
