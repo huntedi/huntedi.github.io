@@ -63,11 +63,14 @@ p {
   background-color: #1b3f20;
 }
 
+/*etusivu*/
+
 #home {
   background-color: #1b3f20;
   padding: 3rem 0;
   color: #ffffff;
   font-size: 1.5rem;
+  margin-top: 0.2rem;
 }
 
 .split-container {
@@ -369,18 +372,12 @@ text-align:center;
     width: 70%;
   }
 
-  .navbar a {
-  
-  }
-
   .video-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 95%;
   }  
-
-  
 
   .portfolio-image1,
   .portfolio-image2 {
@@ -439,9 +436,7 @@ text-align:center;
 
 @media screen and (min-width: 769px) {
   #home {
-    padding: 60px 0;
-    font-size: 24px;
-  }
+   
 
   .split-container {
     align-items: flex-start;
