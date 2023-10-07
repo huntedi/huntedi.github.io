@@ -380,9 +380,11 @@ text-align:center;
     width: 95%;
   }  
 
+  
+
   .portfolio-image1,
   .portfolio-image2 {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
