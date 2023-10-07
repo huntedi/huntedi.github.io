@@ -5,6 +5,7 @@ body {
   font-family: 'Prata', serif;
   font-size: 1rem;
   height: 100%;
+  margin-left: 0;
 }
 
 /* Otsikot */
@@ -50,7 +51,7 @@ p {
   text-decoration: none;
 }
 
-/* Eri navbaarien värit */
+/* navbaari*/
 .navbar.index-navbar,
 .navbar.contact-navbar {
   background-color: #2f2e30;
@@ -119,7 +120,7 @@ th {
 }
 
 
-/* Taulukoiden tyyli */
+/* Taulukot */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -164,7 +165,7 @@ th {
   color: #8b2424;
 }
 
-/* Portfolion tyyli */
+/* Portfolio */
 #portfolio {
   background-color: #2f2e30;
   color: #ffffff;
@@ -180,6 +181,8 @@ th {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  height: 100%;
 }
 
 .split-container2 {
@@ -210,7 +213,7 @@ th {
   height: auto;
 }
 
-/* Mau-sivun tyyli */
+/* Mau */
 #mau {
   background-color: #2f2e30;
   color: #ffffff;
@@ -235,6 +238,7 @@ th {
   align-items: center;
   justify-content: center;
   font-size: 3em;
+  margin-top: 4em;
 }
 
 /* lomake */
@@ -244,6 +248,7 @@ form {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  font-size: 3em;
 }
 
 label {
@@ -252,8 +257,6 @@ label {
 }
 
 input[type="text"] {
-  padding: 8px;
-  margin-bottom: 12px; 
   box-sizing: border-box;
 }
 
@@ -261,8 +264,7 @@ input[type="submit"] {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px 15px;
-  margin-top: 0,5em;
-  margin-bottom: 10px; /* Add margin-bottom for space between button and inputs */
+  margin-top: 2em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
