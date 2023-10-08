@@ -326,11 +326,47 @@ text-align:center;
 }
 
 @media screen and (max-width: 868px) and (orientation: portrait) {
+  #home .right-side table,
+  #home .right-side ul,
+  #home .right-side h2 {
+      display: none;  
+  }
+  
   .image-container {
     flex-direction: column;
     align-items: center;
     gap: 20px;
     width: 70%;
+  }
+
+  #home{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #home header h1 {
+    font-size: 1em; 
+  }
+  
+  #home h2 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #home .table-container {
+    text-align: left; 
+  }
+
+  
+  #home ul {
+    font-size: 1em; 
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0
   }
 
   .video-container {
