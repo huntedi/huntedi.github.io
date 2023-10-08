@@ -82,7 +82,7 @@ p {
 #home ul {
   font-size: 1.5em; 
   text-align: left;
-  padding-left: 1;
+  padding-left: 1em;
   margin-top: 0
 }
 
@@ -204,6 +204,7 @@ body#contact-body {
   background-image: url('tausta.jpg');
   background-size: cover;
   font-size: 1em;
+  overflow: hidden;
 }
 
 body#contact-body h1 {
@@ -344,51 +345,7 @@ text-align:center;
   justify-content: center;
 }  
 
-@media screen and (max-width: 868px) {
-  #contact-body {
-    background-size: auto;
-  }
-
-  #contact-body h1 {
-    font-size: 0.5rem; 
-  }
-
-  #home header h1 {
-    font-size: 1em; 
-  }
-  
-  #home h2 {
-    font-size: 1em;
-    text-align: center;
-  }
-
-  #home .table-container {
-    text-align: left; /* Align the table to the left */
-  }
-
-  #home .custom-table {
-    width: 100%; /* Adjust the width of the table */
-  }
-  
-  #home ul {
-    font-size: 1em; 
-    text-align: center;
-    padding-left: 0;
-    margin-top: 0
-  }
-
-  .left-side {
-    width: 50%;
-    height: 50%
-    flex: 1;
-  }
-
-  .right-side{
-   width: 50%;
-   padding: 2vw;
-   height: 50%;
-  }
-
+@media screen and (max-width: 868px) and (orientation: portrait) {
   .image-container {
     flex-direction: column;
     align-items: center;
@@ -407,6 +364,10 @@ text-align:center;
   .portfolio-image2 {
     width: 90%;
     height: auto;
+  }
+
+  #contact-body {
+    background-size: auto;
   }
 
   .split-container {
