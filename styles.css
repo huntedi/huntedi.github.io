@@ -1,4 +1,4 @@
-/* Yleiset asetukset */
+
 body {
   margin-top: 3em;
   padding: 0;
@@ -67,10 +67,9 @@ p {
 #home {
   background-color: #1b3f20;
   color: #ffffff;
-  overflow: hidden; 
 }
 
-#home header h1 {
+#home h1 {
   font-size: 2em; 
 }
 
@@ -89,7 +88,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 #home .left-side {
@@ -195,21 +193,9 @@ p {
 }
 
 /* contact */
-body#contact-body {
+#contact-body {
   background-image: url('tausta.jpg');
   font-size: 1em;
-}
-
-body#contact-body h1 {
-  font-size: 2.5rem;
-}
-
-body#contact-body #contact a {
-  font-size: 2.5rem;
-  margin-bottom: 1em;
-}
-
-body#contact-body #contact {
   color: #ffffff;
   text-align: center;
   display: flex;
@@ -219,6 +205,16 @@ body#contact-body #contact {
   font-size: 3em;
   margin-top: 2em;
 }
+
+#contact-body h1 {
+  font-size: 2.5rem;
+}
+
+#contact-body #contact a {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+
 
 a {
   color: #ffffff;
@@ -334,11 +330,6 @@ text-align:center;
     width: 70%;
   }
 
-  #home header h1 {
-    font-size: 1em; 
-  }
-  
-
   .video-container {
     display: flex;
     align-items: center;
@@ -356,7 +347,6 @@ text-align:center;
     background-size: auto;
   }
 
-
   .split-container2 {
   flex-direction: column;
  }
@@ -371,10 +361,34 @@ text-align:center;
     text-decoration: none;
   }
 
-  #home .right-side table,
+  #home .left-side img {
+    display: none;
+  }
+  #home .split-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home .left-side,
+  #home .right-side {
+    width: 100%;
+    max-width: none;
+  }
+
+  #home .right-side {
+    padding: 2vw;
+  }
+
+  #home .right-side header h1,
+  #home .right-side h2,
   #home .right-side ul,
-  #home .right-side h2 {
-      display: none;  
+  #home .right-side .table-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  #home .custom-table {
+    width: 100%;
   }
 
 }
